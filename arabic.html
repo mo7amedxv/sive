@@ -1,0 +1,459 @@
+<!doctype html>
+<html lang="ar">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sive</title>
+    <link
+      rel="icon"
+      href="Images/favicon.png"
+      type="image/png"
+      sizes="100x100"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;500;600&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <style>
+      body {
+        font-family: "Cairo", sans-serif;
+        line-height: 1.7;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <div class="container">
+        <div class="logo">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            height="35px"
+            viewBox="0 -960 960 960"
+            width="35px"
+            fill="#2563eb"
+          >
+            <path
+              d="M216-573.33q37 0 71.33 13.66 34.34 13.67 62 39.34L740-146.67h20q22.67 0 38-15.33 15.33-15.33 15.33-38 0-10.13-1.91-21.53-1.92-11.4-13.42-22.8l-181-181L542.67-648l-86 21.33q-32 8-57.67-11.66Q373.33-658 373.33-691v-92.67L328-806.33 160-581q-1.67 1.67-2.67 3.5t-2.66 4.17H216Zm0 66.66h-67.33q3 9.67 8.5 17.79T170-474l333.33 303q13 12.33 29 18.33 16 6 33.67 6h77.33l-339.66-325q-17.67-17-40.47-26-22.81-9-47.2-9ZM566-80q-30 0-57-11t-50-31L134-417q-46-42-51.5-103T114-631l154-206q17-23 45.5-30.5T368-861l28 14q21 11 32.5 30t11.5 42v84l74-19q30-8 58 7.5t38 44.5l65 196 170 170q20 20 27.5 43t7.5 49q0 50-35 85t-85 35H566Z"
+            />
+          </svg>
+          <a href="#" class="brand-name" id="logo">Sive</a>
+        </div>
+        <input type="checkbox" id="menu-toggle" />
+        <label for="menu-toggle" class="menu-btn">
+          <span></span>
+          <span></span>
+          <span></span>
+        </label>
+
+        <ul class="nav">
+          <li><a href="#">تسوق</a></li>
+          <li><a href="#">العروض</a></li>
+          <li><a href="#">التصنيفات</a></li>
+          <li><a href="#">السلة</a></li>
+          <li><a href="index.html">English</a></li>
+        </ul>
+      </div>
+    </header>
+
+    <div class="hero">
+      <div class="container">
+        <h1>اعثر على ما يناسب ستايلك</h1>
+        <p>أحذية رياضية مصممة لتؤدي وتلفت الأنظار</p>
+        <button type="button" class="hero-cta">تسوق الآن</button>
+      </div>
+    </div>
+
+    <main>
+      <section class="categories">
+        <div class="container">
+          <h2 class="section-title" id="categories">تسوق حسب الستايل</h2>
+          <p class="section-desc">استكشف الموديلات الرائجة لكل موسم</p>
+
+          <div class="categories-grid">
+            <a href="#latest" class="category-card">
+              <img src="images/casual.avif" alt="أحذية جري" />
+              <h2>وصل حديثًا</h2>
+            </a>
+
+            <a href="#toprated" class="category-card">
+              <img src="Images/running2.avif" alt="أحذية جري" />
+              <h2>الأكثر إعجابًا</h2>
+            </a>
+
+            <a href="#running" class="category-card">
+              <img src="images/running.avif" alt="أحذية جري" />
+              <h2>اركض بسرعة</h2>
+            </a>
+
+            <a href="#casual" class="category-card">
+              <img src="Images/casual2.avif" alt="أحذية كاجوال" />
+              <h2>راحة يومية</h2>
+            </a>
+
+            <a href="#training" class="category-card">
+              <img src="Images/gym1.webp" alt="أحذية تدريب" />
+              <h2>تدرب بقوة</h2>
+            </a>
+
+            <a href="#winter" class="category-card">
+              <img src="Images/winter2.avif" alt="أحذية شتوية" />
+              <h2>ستايل الشتاء</h2>
+            </a>
+          </div>
+        </div>
+      </section>
+
+      <div class="product-section latest" id="latest">
+        <div class="container">
+          <h2>إصدارات جديدة</h2>
+          <p class="section-desc">ستايلات جديدة تجمع بين الراحة والأناقة</p>
+
+          <div class="products-grid">
+            <div class="product-card">
+              <img src="Images/casual.avif" alt="أحذية لايف ستايل" />
+              <h3>Nike Air Max</h3>
+
+              <p class="product-price">$129.99</p>
+              <button type="button" class="add-to-cart-btn">
+                أضف إلى السلة
+              </button>
+            </div>
+
+            <div class="product-card">
+              <img src="Images/gym4.avif" alt="أحذية تدريب" />
+              <h3>Nike Zoom TR</h3>
+
+              <p class="product-price">$119.99</p>
+              <button type="button" class="add-to-cart-btn">
+                أضف إلى السلة
+              </button>
+            </div>
+
+            <div class="product-card">
+              <img src="Images/winter1.avif" alt="أحذية شتوية" />
+              <h3>Nike Manoa Boot</h3>
+
+              <p class="product-price">$139.99</p>
+              <button type="button" class="add-to-cart-btn">
+                أضف إلى السلة
+              </button>
+            </div>
+
+            <div class="product-card">
+              <img src="Images/running3.avif" alt="أحذية جري" />
+              <h3>Nike Zoom Fly</h3>
+
+              <p class="product-price">$179.99</p>
+              <button type="button" class="add-to-cart-btn">
+                أضف إلى السلة
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="product-section top-rated" id="toprated">
+        <div class="container">
+          <h2>أفضل الاختيارات</h2>
+          <p class="section-desc">مفضلة العملاء للراحة اليومية</p>
+
+          <div class="products-grid">
+            <div class="product-card">
+              <img src="Images/casual.avif" alt="أحذية لايف ستايل" />
+              <h3>Nike Air Max</h3>
+
+              <p class="product-price">$129.99</p>
+              <button type="button" class="add-to-cart-btn">
+                أضف إلى السلة
+              </button>
+            </div>
+
+            <div class="product-card">
+              <img src="Images/running.avif" alt="أحذية جري" />
+              <h3>Nike Winflo</h3>
+
+              <p class="product-price">$109.99</p>
+              <button type="button" class="add-to-cart-btn">
+                أضف إلى السلة
+              </button>
+            </div>
+
+            <div class="product-card">
+              <img src="Images/gym1.webp" alt="أحذية تدريب" />
+              <h3>Nike Free Metcon</h3>
+
+              <p class="product-price">$124.99</p>
+              <button type="button" class="add-to-cart-btn">
+                أضف إلى السلة
+              </button>
+            </div>
+
+            <div class="product-card">
+              <img src="Images/winter1.avif" alt="أحذية شتوية" />
+              <h3>Nike Manoa Boot</h3>
+
+              <p class="product-price">$139.99</p>
+              <button type="button" class="add-to-cart-btn">
+                أضف إلى السلة
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="product-section running" id="running">
+        <div class="container">
+          <h2>الجري السريع</h2>
+          <p class="section-desc">سرعة وراحة وأداء سلس</p>
+
+          <div class="products-grid">
+            <div class="product-card">
+              <img src="Images/running.avif" alt="أحذية جري" />
+              <h3>Nike Winflo</h3>
+
+              <p class="product-price">$109.99</p>
+              <button type="button" class="add-to-cart-btn">
+                أضف إلى السلة
+              </button>
+            </div>
+
+            <div class="product-card">
+              <img src="Images/running2.avif" alt="أحذية جري" />
+              <h3>Nike Pegasus</h3>
+
+              <p class="product-price">$129.99</p>
+              <button type="button" class="add-to-cart-btn">
+                أضف إلى السلة
+              </button>
+            </div>
+
+            <div class="product-card">
+              <img src="Images/running3.avif" alt="أحذية جري" />
+              <h3>Nike Zoom Fly</h3>
+
+              <p class="product-price">$179.99</p>
+              <button type="button" class="add-to-cart-btn">
+                أضف إلى السلة
+              </button>
+            </div>
+
+            <div class="product-card">
+              <img src="Images/running4.avif" alt="أحذية جري" />
+              <h3>Nike Vaporfly</h3>
+
+              <p class="product-price">$249.99</p>
+              <button type="button" class="add-to-cart-btn">
+                أضف إلى السلة
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="product-section casual" id="casual">
+        <div class="container">
+          <h2>اللبس اليومي</h2>
+          <p class="section-desc">راحة كاجوال للحركة كل يوم</p>
+
+          <div class="products-grid">
+            <div class="product-card">
+              <img src="Images/casual.avif" alt="أحذية كاجوال" />
+              <h3>Nike Air Max</h3>
+              <p class="product-price">$129.99</p>
+              <button type="button" class="add-to-cart-btn">
+                أضف إلى السلة
+              </button>
+            </div>
+
+            <div class="product-card">
+              <img src="Images/casual2.avif" alt="أحذية كاجوال" />
+              <h3>Nike Court Vision</h3>
+              <p class="product-price">$89.99</p>
+              <button type="button" class="add-to-cart-btn">
+                أضف إلى السلة
+              </button>
+            </div>
+
+            <div class="product-card">
+              <img src="Images/casual3.avif" alt="أحذية كاجوال" />
+              <h3>Nike Blazer Low</h3>
+              <p class="product-price">$99.99</p>
+              <button type="button" class="add-to-cart-btn">
+                أضف إلى السلة
+              </button>
+            </div>
+
+            <div class="product-card">
+              <img src="Images/casual4.avif" alt="أحذية كاجوال" />
+              <h3>Nike Air Force</h3>
+
+              <p class="product-price">$119.99</p>
+              <button type="button" class="add-to-cart-btn">
+                أضف إلى السلة
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="product-section training" id="training">
+        <div class="container">
+          <h2>قوة التمرين</h2>
+          <p class="section-desc">مصممة للقوة والثبات</p>
+
+          <div class="products-grid">
+            <div class="product-card">
+              <img src="Images/gym4.avif" alt="أحذية تدريب" />
+              <h3>Nike Zoom TR</h3>
+
+              <p class="product-price">$119.99</p>
+              <button type="button" class="add-to-cart-btn">
+                أضف إلى السلة
+              </button>
+            </div>
+
+            <div class="product-card">
+              <img src="Images/gym1.webp" alt="أحذية تدريب" />
+              <h3>Nike Free Metcon</h3>
+
+              <p class="product-price">$124.99</p>
+              <button type="button" class="add-to-cart-btn">
+                أضف إلى السلة
+              </button>
+            </div>
+
+            <div class="product-card">
+              <img src="Images/gym2.avif" alt="أحذية تدريب" />
+              <h3>Nike Metcon</h3>
+
+              <p class="product-price">$139.99</p>
+              <button type="button" class="add-to-cart-btn">
+                أضف إلى السلة
+              </button>
+            </div>
+
+            <div class="product-card">
+              <img src="Images/gym3.avif" alt="أحذية تدريب" />
+              <h3>Nike React Infinity</h3>
+
+              <p class="product-price">$159.99</p>
+              <button type="button" class="add-to-cart-btn">
+                أضف إلى السلة
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="product-section winter" id="winter">
+        <div class="container">
+          <h2>أحذية الشتاء</h2>
+          <p class="section-desc">راحة كاجوال للحركة كل يوم</p>
+
+          <div class="products-grid">
+            <div class="product-card">
+              <img src="Images/winter1.avif" alt="أحذية شتوية" />
+              <h3>Nike Manoa Boot</h3>
+
+              <p class="product-price">$139.99</p>
+              <button type="button" class="add-to-cart-btn">
+                أضف إلى السلة
+              </button>
+            </div>
+
+            <div class="product-card">
+              <img src="Images/winter2.avif" alt="أحذية شتوية" />
+              <h3>Nike ACG Terra</h3>
+              <p class="product-price">$169.99</p>
+              <button type="button" class="add-to-cart-btn">
+                أضف إلى السلة
+              </button>
+            </div>
+
+            <div class="product-card">
+              <img src="Images/winter3.avif" alt="أحذية شتوية" />
+              <h3>Nike Snow Runner</h3>
+
+              <p class="product-price">$149.99</p>
+              <button type="button" class="add-to-cart-btn">
+                أضف إلى السلة
+              </button>
+            </div>
+
+            <div class="product-card">
+              <img src="Images/categories6.png" alt="أحذية شتوية" />
+              <h3>Nike Winter Shield</h3>
+
+              <p class="product-price">$189.99</p>
+              <button type="button" class="add-to-cart-btn">
+                أضف إلى السلة
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <footer class="footer">
+      <h2>اكتشف المزيد</h2>
+      <div class="container">
+        <div class="about">
+          <h3>عن Sive</h3>
+          <p>
+            وُلدت علامتنا من ورشة صغيرة، ورسالتنا بسيطة: نصنع أحذية تشعرك
+            بالراحة كما تبدو جميلة. نحن نركز على الراحة
+          </p>
+        </div>
+        <div class="links-container">
+          <h3>تابعنا</h3>
+          <ul>
+            <li><a href="https://github.com/mo7amedxv">Github</a></li>
+            <li>
+              <a href="https://www.youtube.com/@Mohamedfrontend">youtube</a>
+            </li>
+            <li><a href="#">Instagram</a></li>
+            <li>
+              <a href="https://www.frontendmentor.io/profile/mo7amedxv"
+                >Frontend Mentor</a
+              >
+            </li>
+          </ul>
+        </div>
+        <div class="links-container">
+          <h3>روابط سريعة</h3>
+          <ul>
+            <li><a href="#">رجالي</a></li>
+            <li><a href="#">حريمي</a></li>
+            <li><a href="#">العروض</a></li>
+            <li><a href="#">التصنيفات</a></li>
+            <li><a href="#">السلة</a></li>
+          </ul>
+        </div>
+        <div class="links-container">
+          <h3>التصنيفات</h3>
+          <ul>
+            <li><a href="#latest">إصدارات جديدة</a></li>
+            <li><a href="#toprated">أفضل الاختيارات</a></li>
+            <li><a href="#running">الجري</a></li>
+            <li><a href="#casual">لايف ستايل</a></li>
+            <li><a href="#training">التمرين</a></li>
+            <li><a href="#Winter">الشتاء</a></li>
+          </ul>
+        </div>
+        <div class="links-container">
+          <h3>تواصل معنا</h3>
+          <ul>
+            <li>+20 123 456 789</li>
+            <li>support@shoestore.com</li>
+            <li>123 Fashion Street, Cairo, Egypt</li>
+          </ul>
+        </div>
+      </div>
+      <p class="copyright">© 2026 Sive جميع الحقوق محفوظة</p>
+    </footer>
+  </body>
+</html>
