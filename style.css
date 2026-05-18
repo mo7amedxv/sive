@@ -321,6 +321,16 @@ footer .links-container {
   .hero p {
     font-size: 1.1rem;
   }
+  .product-card {
+    min-width: 250px;
+  }
+  .products-grid {
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
+    overflow-x: scroll;
+    scrollbar-width: none;
+  }
 }
 @media (max-width: 400px) {
   .container {
