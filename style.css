@@ -1,8 +1,9 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap");
 :root {
-  --primary: #2563eb;
+  --primary: #0066ee;
   --primary-light: #60a5fa;
   --primary-dark: #1e40af;
+  --primary-hover: #1943cf;
   --bg: #f9f9f9;
   --card: #fff;
   --text: #0f172a;
@@ -23,7 +24,7 @@
   --fs-md: 1.5rem;
   --fs-sm: 1.3rem;
   --fs-xm: 1.1rem;
-  --radius-sm: 0.6rem;
+  --radius-sm: 0.4rem;
   --radius-md: 1rem;
   --radius-lg: 1.5rem;
 }
@@ -133,7 +134,7 @@ h1 {
   position: relative;
 }
 .hero-cta:hover {
-  background-color: var(--primary-dark);
+  background-color: var(--primary-hover);
 }
 .categories-grid {
   display: grid;
@@ -213,10 +214,12 @@ footer {
   color: var(--light-text);
   padding: var(--space) var(--card-space);
   font-size: var(--fs-xm);
-  text-transform: capitalize;
+  text-transform: uppercase;
+  font-weight: var(--fw-md);
+  border-radius: var(--radius-sm);
 }
 .product-card button:hover {
-  background-color: var(--primary-dark);
+  background-color: var(--primary-hover);
 }
 .product-card h3 {
   font-weight: var(--fw-sm);
