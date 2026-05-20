@@ -11,7 +11,7 @@
   --light-text: hsl(0, 0%, 95%);
   --border: #e2e8f0;
   --shadow: 0 10px 25px rgba(37, 99, 235, 0.08);
-  --main-section-padding: 5rem;
+  --main-section-padding: 3rem;
   --space-xl: 3rem;
   --section-space: 2rem;
   --card-space: 1rem;
@@ -209,12 +209,13 @@ footer {
 }
 
 .product-card button {
-  background-color: var(--primary);
+  background-color: var(--text);
   color: var(--light-text);
   padding: var(--space) var(--card-space);
   font-size: var(--fs-xm);
   text-transform: capitalize;
   font-weight: var(--fw-sm);
+  transition: 0.3s ease;
 }
 .product-card button:hover {
   background-color: var(--primary-hover);
@@ -234,8 +235,10 @@ footer {
 footer .container {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-  align-items: baseline;
+  align-items: first baseline;
   place-content: center;
+  justify-items: center;
+  text-align: center;
 }
 footer {
   background-color: #010101;
@@ -246,6 +249,7 @@ footer h3 {
   color: var(--light-text) !important;
   text-align: center;
   justify-self: center;
+  margin-inline: auto;
 }
 
 footer p,
@@ -253,6 +257,7 @@ footer a,
 footer li {
   color: var(--text-muted);
   text-align: center;
+  margin-inline: auto;
 }
 footer a:hover {
   text-decoration: underline;
@@ -260,6 +265,7 @@ footer a:hover {
 footer a {
   width: fit-content;
   justify-self: center;
+  margin-inline: auto;
 }
 .copyright {
   text-align: center;
