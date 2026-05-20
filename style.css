@@ -370,3 +370,11 @@ footer .links-container {
     padding: 0.5rem;
   }
 }
+.categories-grid::-webkit-scrollbar {
+  display: none;
+}
+.categories-grid {
+  scrollbar-width: none;
+  -ms-overflow-style: none;
+  overflow-y: scroll;
+}
