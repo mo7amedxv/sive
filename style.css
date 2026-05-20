@@ -11,7 +11,7 @@
   --light-text: hsl(0, 0%, 95%);
   --border: #e2e8f0;
   --shadow: 0 10px 25px rgba(37, 99, 235, 0.08);
-  --main-section-padding: 6rem;
+  --main-section-padding: 5rem;
   --space-xl: 3rem;
   --section-space: 2rem;
   --card-space: 1rem;
@@ -93,6 +93,7 @@ header .nav a:hover {
 .hero {
   background: url("Images/sale-blue.png") no-repeat center/cover;
   height: calc(100svh - 80px);
+  min-height: 500px;
   display: flex;
   align-items: flex-end;
   text-align: center;
@@ -247,6 +248,7 @@ footer h2,
 footer h3 {
   color: var(--light-text) !important;
   text-align: center;
+  justify-self: center;
 }
 
 footer p,
